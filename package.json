@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brownhci/WebGazer.git"
+    "url": "https://github.com/Santransisco/WebGazer.git"
   },
   "license": "GPL-3.0-or-later",
   "main": "dist/webgazer.js",
@@ -35,7 +35,13 @@
   ],
   "dependencies": {
     "@tensorflow-models/facemesh": "0.0.3",
-    "@tensorflow/tfjs" : "git+https://github.com/SanTransisco/tfjs.git",
+    "@tensorflow/tfjs": "https://gitpkg.now.sh/SanTransisco/tfjs/tfjs?master",
+    "@tensorflow/tfjs-backend-cpu": "https://gitpkg.now.sh/SanTransisco/tfjs/tfjs-backend-cpu?master",
+    "@tensorflow/tfjs-backend-webgl": "https://gitpkg.now.sh/SanTransisco/tfjs/tfjs-backend-webgl?master",
+    "@tensorflow/tfjs-converter": "https://gitpkg.now.sh/SanTransisco/tfjs/tfjs-converter?master",
+    "@tensorflow/tfjs-core": "https://gitpkg.now.sh/SanTransisco/tfjs/tfjs-core?master",
+    "@tensorflow/tfjs-data": "https://gitpkg.now.sh/SanTransisco/tfjs/tfjs-data?master",
+    "@tensorflow/tfjs-layers": "https://gitpkg.now.sh/SanTransisco/tfjs/tfjs-layers?master",
     "localforage": "1.7.3",
     "numeric": "1.2.6",
     "regression": "2.0.1"
